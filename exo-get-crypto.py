@@ -12,9 +12,9 @@ while True:
         for liste in crypto_list:
             print(liste)
     elif inp == '2':
-        mon = input("Entrez le nom de votre cryptomonnaie :\n")
+        mon = input("Entrez le nom de votre cryptomonnaie:\n")
         print(cryptocompare.get_price(mon, curr))
     elif inp == '3':
         exit()
     else:
-        print("Une Erreur est survenue veuillez rééssayer\n")
+        print("Une Erreur est survenue veuillez réessayer")
